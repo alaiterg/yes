@@ -106,7 +106,7 @@
          * Fill every week, counting from the given bday
          * bday format: dd/mm/yyyy
          */
-        function fill_calendar(2"1/11/2003") {
+        function fill_calendar("12/11/2003") {
             // convert from dd/mm/yy to mm/dd/yy
             let [day, month, year] = bday.split("/");
             bday = new Date(`${month}/${day}/${year}`);
